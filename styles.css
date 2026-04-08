@@ -76,7 +76,8 @@ section {
 }
 
 .nav-logo img {
-  height: 36px;
+  image-rendering: -webkit-optimize-contrast;
+  height: 42px;
   width: auto;
 }
 
