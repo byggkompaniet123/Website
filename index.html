@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="nb-NO">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Byggkompaniet 123 AS — Entreprenørfirma i Blaker. Nybygg, rehabilitering og renovering for private og næringskunder.">
+  <title>Byggkompaniet 123 AS</title>
+  <link rel="icon" type="image/png" href="images/logo-32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="images/logo-192.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="images/logo-180.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Hovednavigasjon">
+        <a href="#" class="nav-logo">
+          <img src="images/logo-270.png" alt="Byggkompaniet 123 AS logo">
+        </a>
+        <ul class="nav-links">
+          <li><a href="#tjenester">Tjenester</a></li>
+          <li><a href="#om">Om oss</a></li>
+          <li><a href="#kontaktskjema">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero" id="om">
+      <div class="container">
+        <h1>Byggkompaniet 123 AS</h1>
+        <p>
+          Vi er et entreprenørfirma som spesialiserer seg på oppføring av bygninger.
+          Selskapet utfører både nybygg, rehabilitering og renoveringsprosjekter
+          for private og næringskunder. Vi leverer solide håndverkstjenester
+          med fokus på kvalitet og pålitelighet.
+        </p>
+      </div>
+    </section>
+
+    <section class="hero-image">
+      <div class="container">
+        <img
+          src="images/byggkompaniet123.jpg"
+          alt="Byggkompaniet 123 AS — byggeprosjekt"
+          width="960"
+          height="398"
+          srcset="images/byggkompaniet123.jpg 960w, images/byggkompaniet123-768.jpg 768w, images/byggkompaniet123-300.jpg 300w"
+          sizes="(max-width: 960px) 100vw, 960px"
+        >
+      </div>
+    </section>
+
+    <section class="services" id="tjenester">
+      <div class="container">
+        <h2>Våre tjenester</h2>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon" aria-hidden="true">&#127959;</div>
+            <h3>Nybygg</h3>
+            <p>Oppføring av nye boliger og næringsbygg. Vi håndterer hele prosessen fra planlegging til ferdigstillelse.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon" aria-hidden="true">&#128296;</div>
+            <h3>Renovering</h3>
+            <p>Modernisering og oppgradering av eksisterende boliger og næringsbygg til dagens standard.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon" aria-hidden="true">&#127968;</div>
+            <h3>Rehabilitering</h3>
+            <p>Omfattende rehabilitering av eldre bygg med fokus på kvalitet, energieffektivitet og lang levetid.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<section class="contact-form-section" id="kontaktskjema">      <div class="container">        <div class="contact-header">          <h2>Hvordan kan vi hjelpe deg?</h2>          <p>Planlegger du et byggeprosjekt, eller trenger du et uforpliktende tilbud? Fyll ut skjemaet, så tar vi kontakt innen kort tid.</p>        </div>        <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">          <input type="hidden" name="access_key" value="b0675ca2-c5b9-42ef-9824-7f1b243b8535">          <input type="hidden" name="subject" value="Ny henvendelse fra byggkompaniet123.no">          <input type="checkbox" name="botcheck" style="display:none">          <div class="form-grid">            <div class="form-group">              <label for="navn">Navn <span class="required">*</span></label>              <input type="text" id="navn" name="navn" required placeholder="Fullt navn">            </div>            <div class="form-group">              <label for="telefon">Telefon <span class="required">*</span></label>              <input type="tel" id="telefon" name="telefon" required placeholder="+47">            </div>            <div class="form-group">              <label for="epost">E-post <span class="required">*</span></label>              <input type="email" id="epost" name="epost" required placeholder="din@epost.no">            </div>            <div class="form-group">              <label for="adresse">Adresse <span class="required">*</span></label>              <input type="text" id="adresse" name="adresse" required placeholder="Gateadresse">            </div>            <div class="form-group">              <label for="emne">Emne</label>              <input type="text" id="emne" name="emne" placeholder="Hva gjelder henvendelsen?">            </div>            <div class="form-group">              <label for="postnummer">Postnummer <span class="required">*</span></label>              <input type="text" id="postnummer" name="postnummer" required placeholder="0000" pattern="[0-9]{4}" maxlength="4">            </div>          </div>          <div class="form-group form-full">            <label for="melding">Melding</label>            <textarea id="melding" name="melding" rows="4" placeholder="Legg igjen en beskjed til oss..."></textarea>          </div>          <div class="form-submit">            <button type="submit">Send inn</button>          </div>        </form>      </div>    </section>
+    <section class="map" id="kontakt">
+      <div class="container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1985.5!2d11.5347!3d59.7558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sLilloveien+170+B%2C+1925+Blaker!5e0!3m2!1sen!2sno"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Byggkompaniet 123 AS lokasjon"
+        ></iframe>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <p>
+            <strong>Byggkompaniet 123 AS</strong><br>
+            Org.nr: 812 039 342
+          </p>
+        </div>
+        <div class="footer-col">
+          <p>
+            Lilloveien 170 B<br>
+            1925 Blaker
+          </p>
+        </div>
+        <div class="footer-col">
+          <p>
+            Tlf: <a href="tel:+4799895877">+47 99 89 58 77</a>
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Byggkompaniet 123 AS</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
